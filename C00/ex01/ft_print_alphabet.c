@@ -6,14 +6,11 @@
 /*   By: jcopari- <jcopari-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 21:34:41 by jcopari-          #+#    #+#             */
-/*   Updated: 2025/07/01 22:18:42 by jcopari-         ###   ########.fr       */
+/*   Updated: 2025/07/01 22:22:33 by jcopari-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-
-// Escreva uma função que exiba o alfabeto em minúsculas, numa única linha, em
-// ordem crescente, começando pela letra ’a’.
 
 void	ft_print_alphabet(void)
 {
@@ -25,7 +22,6 @@ void	ft_print_alphabet(void)
 		write (1, &letra, 1);
 		letra++;
 	}
-	//write (1, "\n", 1);
 }
 
 int	main(void)

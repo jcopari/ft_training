@@ -6,7 +6,7 @@
 /*   By: jcopari- <jcopari-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/29 21:24:22 by jcopari-          #+#    #+#             */
-/*   Updated: 2025/07/01 22:09:51 by jcopari-         ###   ########.fr       */
+/*   Updated: 2025/07/01 22:23:01 by jcopari-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@ void	ft_is_negative(int nbr)
 	}
 }
 
-// int	main(void)
-// {
-// 	ft_is_negative(1);
-// 	ft_is_negative(0);
-// 	ft_is_negative(-1);
-// 	return (0);
-// }
+int	main(void)
+{
+	ft_is_negative(1);
+	ft_is_negative(0);
+	ft_is_negative(-1);
+	return (0);
+}

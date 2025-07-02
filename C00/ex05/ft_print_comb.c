@@ -6,18 +6,9 @@
 /*   By: jcopari- <jcopari-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 13:38:52 by jcopari-          #+#    #+#             */
-/*   Updated: 2025/07/01 22:09:47 by jcopari-         ###   ########.fr       */
+/*   Updated: 2025/07/01 22:22:50 by jcopari-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*
-Escreva uma função que exiba, em ordem crescente, todas as diferentes combinações
-de três dígitos diferentes em ordem crescente - sim, a repetição é proposital.
-• Isso resulta em algo do tipo:
-012, 013, 014, 015, 016, 017, 018, 019, 023, ..., 789$>
-• 987 fica de fora porque o 789 já está presente.
-• 999 fica de fora porque o dígito 9 aparece mais de uma vez.
-*/
 
 #include <unistd.h>
 

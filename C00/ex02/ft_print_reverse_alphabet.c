@@ -6,7 +6,7 @@
 /*   By: jcopari- <jcopari-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/29 21:06:45 by jcopari-          #+#    #+#             */
-/*   Updated: 2025/07/01 22:18:38 by jcopari-         ###   ########.fr       */
+/*   Updated: 2025/07/01 22:22:29 by jcopari-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ void	ft_print_reverse_alphabet(void)
 		write (1, &letra, 1);
 		letra--;
 	}
-	//write (1, "\n", 1);
 }
 
 int	main(void)

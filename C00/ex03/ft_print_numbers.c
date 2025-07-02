@@ -1,32 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcopari- <jcopari-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/29 21:06:45 by jcopari-          #+#    #+#             */
-/*   Updated: 2025/07/01 22:18:38 by jcopari-         ###   ########.fr       */
+/*   Created: 2025/07/01 22:13:48 by jcopari-          #+#    #+#             */
+/*   Updated: 2025/07/01 22:15:50 by jcopari-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_reverse_alphabet(void)
+void	ft_print_numbers(void)
 {
-	char	letra;
+	char	nbr;
 
-	letra = 'z';
-	while (letra >= 'a')
+	nbr = '0';
+	while (nbr <= '9')
 	{
-		write (1, &letra, 1);
-		letra--;
+		write (1, &nbr, 1);
+		nbr++;
 	}
-	//write (1, "\n", 1);
-}
-
-int	main(void)
-{
-	ft_print_reverse_alphabet();
-	return (0);
 }

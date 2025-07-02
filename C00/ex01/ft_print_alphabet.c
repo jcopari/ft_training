@@ -6,7 +6,7 @@
 /*   By: jcopari- <jcopari-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 21:34:41 by jcopari-          #+#    #+#             */
-/*   Updated: 2025/06/29 20:58:45 by jcopari-         ###   ########.fr       */
+/*   Updated: 2025/07/01 22:18:42 by jcopari-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_print_alphabet(void)
 		write (1, &letra, 1);
 		letra++;
 	}
-	write (1, "\n", 1);
+	//write (1, "\n", 1);
 }
 
 int	main(void)
